@@ -1,0 +1,24 @@
+{
+  "name": "daos-ipfs",
+  "version": "1.0.0",
+  "description": "Upload image to IPFS network",
+  "main": "images.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "canvas": "^2.8.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "ipfs-add-folder": "^1.0.10",
+    "node-fetch": "^2.0.0"
+  },
+  "keywords": [
+    "IPFS",
+    "DAOS"
+  ]
+}
